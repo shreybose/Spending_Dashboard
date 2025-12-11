@@ -1,0 +1,1 @@
+Creating a dashboard to track spending expenditures using synthetic data generator
