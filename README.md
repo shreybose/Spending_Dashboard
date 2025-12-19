@@ -22,8 +22,8 @@ This project generates a **realistic synthetic dataset of personal credit card t
 |-----------------|----------------------------------------|
 | Date            | Date of transaction (YYYY-MM-DD)       |
 | Category        | Main transaction category               |
-| Subcategory     | Subcategory (e.g., Rent, Flights)      |
 | Amount          | Transaction amount in USD               |
+| Subcategory     | Subcategory if any (e.g., Rent, Flights)      |
 
 ---
 
@@ -32,18 +32,22 @@ This project generates a **realistic synthetic dataset of personal credit card t
 1. **Clone the repository:**  
 ```bash
 git clone <repo_url>
+```
 
 2. **Install dependencies:**
 ```bash
 pip install -r requirements.txt
+```
 
-3. ** Go Into the folder with main.py**
+3. **cd into the folder with main.py**
 ```bash
 cd script
+```
 
 3.  **Run the script:**
 ```
 python main.py
+```
 
 4. The generated CSV file synthetic_expenses_2025_realistic.csv will be saved in the project directory.
 
